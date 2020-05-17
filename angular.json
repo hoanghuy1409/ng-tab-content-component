@@ -120,6 +120,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "au-tab-panel"
+    }
+  },
+  "defaultProject": "au-tab-panel",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

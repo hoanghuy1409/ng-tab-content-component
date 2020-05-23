@@ -1,5 +1,7 @@
 # AuTabPanel
 
+![image](https://user-images.githubusercontent.com/54434089/82142093-20a42000-9864-11ea-949d-d9093b00aba4.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
 
 ## Development server

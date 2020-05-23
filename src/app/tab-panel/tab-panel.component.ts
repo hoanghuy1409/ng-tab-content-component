@@ -3,6 +3,8 @@ import {
   ContentChildren,
   QueryList,
   AfterContentInit,
+  TemplateRef,
+  Input,
 } from "@angular/core";
 import { TabComponent } from "../tab/tab.component";
 
@@ -16,6 +18,9 @@ export class TabPanelComponent implements AfterContentInit {
 
   @ContentChildren(TabComponent)
   tabs: QueryList<TabComponent>;
+
+  @Input()
+  headerTemplate: TemplateRef<any>;
 
   ngAfterContentInit() {
     const selectedTab = this.tabs.find((tab) => tab.selected);
